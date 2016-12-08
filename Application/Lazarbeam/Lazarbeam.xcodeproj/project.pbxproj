@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B379BDE61DF0897F00489E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B379BDE51DF0897F00489E62 /* AppDelegate.swift */; };
+		B379BDE81DF0897F00489E62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B379BDE71DF0897F00489E62 /* ViewController.swift */; };
+		B379BDEB1DF0897F00489E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B379BDE91DF0897F00489E62 /* Main.storyboard */; };
+		B379BDED1DF0897F00489E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B379BDEC1DF0897F00489E62 /* Assets.xcassets */; };
+		B379BDF01DF0897F00489E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B379BDEE1DF0897F00489E62 /* LaunchScreen.storyboard */; };
+		B379BDFB1DF0897F00489E62 /* LazarbeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B379BDFA1DF0897F00489E62 /* LazarbeamTests.swift */; };
+		B379BE061DF0897F00489E62 /* LazarbeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B379BE051DF0897F00489E62 /* LazarbeamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B379BDF71DF0897F00489E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B379BDDA1DF0897F00489E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B379BDE11DF0897F00489E62;
+			remoteInfo = Lazarbeam;
+		};
+		B379BE021DF0897F00489E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B379BDDA1DF0897F00489E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B379BDE11DF0897F00489E62;
+			remoteInfo = Lazarbeam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B379BDE21DF0897F00489E62 /* Lazarbeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lazarbeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B379BDE51DF0897F00489E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B379BDE71DF0897F00489E62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B379BDEA1DF0897F00489E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B379BDEC1DF0897F00489E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B379BDEF1DF0897F00489E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B379BDF11DF0897F00489E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B379BDF61DF0897F00489E62 /* LazarbeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazarbeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B379BDFA1DF0897F00489E62 /* LazarbeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazarbeamTests.swift; sourceTree = "<group>"; };
+		B379BDFC1DF0897F00489E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B379BE011DF0897F00489E62 /* LazarbeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazarbeamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B379BE051DF0897F00489E62 /* LazarbeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazarbeamUITests.swift; sourceTree = "<group>"; };
+		B379BE071DF0897F00489E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B379BDDF1DF0897F00489E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BDF31DF0897F00489E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BDFE1DF0897F00489E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B379BDD91DF0897F00489E62 = {
+			isa = PBXGroup;
+			children = (
+				B379BDE41DF0897F00489E62 /* Lazarbeam */,
+				B379BDF91DF0897F00489E62 /* LazarbeamTests */,
+				B379BE041DF0897F00489E62 /* LazarbeamUITests */,
+				B379BDE31DF0897F00489E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B379BDE31DF0897F00489E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B379BDE21DF0897F00489E62 /* Lazarbeam.app */,
+				B379BDF61DF0897F00489E62 /* LazarbeamTests.xctest */,
+				B379BE011DF0897F00489E62 /* LazarbeamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B379BDE41DF0897F00489E62 /* Lazarbeam */ = {
+			isa = PBXGroup;
+			children = (
+				B379BDE51DF0897F00489E62 /* AppDelegate.swift */,
+				B379BDE71DF0897F00489E62 /* ViewController.swift */,
+				B379BDE91DF0897F00489E62 /* Main.storyboard */,
+				B379BDEC1DF0897F00489E62 /* Assets.xcassets */,
+				B379BDEE1DF0897F00489E62 /* LaunchScreen.storyboard */,
+				B379BDF11DF0897F00489E62 /* Info.plist */,
+			);
+			path = Lazarbeam;
+			sourceTree = "<group>";
+		};
+		B379BDF91DF0897F00489E62 /* LazarbeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B379BDFA1DF0897F00489E62 /* LazarbeamTests.swift */,
+				B379BDFC1DF0897F00489E62 /* Info.plist */,
+			);
+			path = LazarbeamTests;
+			sourceTree = "<group>";
+		};
+		B379BE041DF0897F00489E62 /* LazarbeamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B379BE051DF0897F00489E62 /* LazarbeamUITests.swift */,
+				B379BE071DF0897F00489E62 /* Info.plist */,
+			);
+			path = LazarbeamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B379BDE11DF0897F00489E62 /* Lazarbeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B379BE0A1DF0897F00489E62 /* Build configuration list for PBXNativeTarget "Lazarbeam" */;
+			buildPhases = (
+				B379BDDE1DF0897F00489E62 /* Sources */,
+				B379BDDF1DF0897F00489E62 /* Frameworks */,
+				B379BDE01DF0897F00489E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lazarbeam;
+			productName = Lazarbeam;
+			productReference = B379BDE21DF0897F00489E62 /* Lazarbeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B379BDF51DF0897F00489E62 /* LazarbeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B379BE0D1DF0897F00489E62 /* Build configuration list for PBXNativeTarget "LazarbeamTests" */;
+			buildPhases = (
+				B379BDF21DF0897F00489E62 /* Sources */,
+				B379BDF31DF0897F00489E62 /* Frameworks */,
+				B379BDF41DF0897F00489E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B379BDF81DF0897F00489E62 /* PBXTargetDependency */,
+			);
+			name = LazarbeamTests;
+			productName = LazarbeamTests;
+			productReference = B379BDF61DF0897F00489E62 /* LazarbeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B379BE001DF0897F00489E62 /* LazarbeamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B379BE101DF0897F00489E62 /* Build configuration list for PBXNativeTarget "LazarbeamUITests" */;
+			buildPhases = (
+				B379BDFD1DF0897F00489E62 /* Sources */,
+				B379BDFE1DF0897F00489E62 /* Frameworks */,
+				B379BDFF1DF0897F00489E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B379BE031DF0897F00489E62 /* PBXTargetDependency */,
+			);
+			name = LazarbeamUITests;
+			productName = LazarbeamUITests;
+			productReference = B379BE011DF0897F00489E62 /* LazarbeamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B379BDDA1DF0897F00489E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kjell Verschuren";
+				TargetAttributes = {
+					B379BDE11DF0897F00489E62 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8NABW7JG43;
+						ProvisioningStyle = Automatic;
+					};
+					B379BDF51DF0897F00489E62 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZQX656G8T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B379BDE11DF0897F00489E62;
+					};
+					B379BE001DF0897F00489E62 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZQX656G8T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B379BDE11DF0897F00489E62;
+					};
+				};
+			};
+			buildConfigurationList = B379BDDD1DF0897F00489E62 /* Build configuration list for PBXProject "Lazarbeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B379BDD91DF0897F00489E62;
+			productRefGroup = B379BDE31DF0897F00489E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B379BDE11DF0897F00489E62 /* Lazarbeam */,
+				B379BDF51DF0897F00489E62 /* LazarbeamTests */,
+				B379BE001DF0897F00489E62 /* LazarbeamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B379BDE01DF0897F00489E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B379BDF01DF0897F00489E62 /* LaunchScreen.storyboard in Resources */,
+				B379BDED1DF0897F00489E62 /* Assets.xcassets in Resources */,
+				B379BDEB1DF0897F00489E62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BDF41DF0897F00489E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BDFF1DF0897F00489E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B379BDDE1DF0897F00489E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B379BDE81DF0897F00489E62 /* ViewController.swift in Sources */,
+				B379BDE61DF0897F00489E62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BDF21DF0897F00489E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B379BDFB1DF0897F00489E62 /* LazarbeamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B379BDFD1DF0897F00489E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B379BE061DF0897F00489E62 /* LazarbeamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B379BDF81DF0897F00489E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B379BDE11DF0897F00489E62 /* Lazarbeam */;
+			targetProxy = B379BDF71DF0897F00489E62 /* PBXContainerItemProxy */;
+		};
+		B379BE031DF0897F00489E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B379BDE11DF0897F00489E62 /* Lazarbeam */;
+			targetProxy = B379BE021DF0897F00489E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B379BDE91DF0897F00489E62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B379BDEA1DF0897F00489E62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B379BDEE1DF0897F00489E62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B379BDEF1DF0897F00489E62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B379BE081DF0897F00489E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B379BE091DF0897F00489E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B379BE0B1DF0897F00489E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NABW7JG43;
+				INFOPLIST_FILE = Lazarbeam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KjellVerschuren.Lazarbeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B379BE0C1DF0897F00489E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NABW7JG43;
+				INFOPLIST_FILE = Lazarbeam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KjellVerschuren.Lazarbeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B379BE0E1DF0897F00489E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZQX656G8T9;
+				INFOPLIST_FILE = LazarbeamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KjellVerschuren.LazarbeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazarbeam.app/Lazarbeam";
+			};
+			name = Debug;
+		};
+		B379BE0F1DF0897F00489E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZQX656G8T9;
+				INFOPLIST_FILE = LazarbeamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KjellVerschuren.LazarbeamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazarbeam.app/Lazarbeam";
+			};
+			name = Release;
+		};
+		B379BE111DF0897F00489E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZQX656G8T9;
+				INFOPLIST_FILE = LazarbeamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KjellVerschuren.LazarbeamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lazarbeam;
+			};
+			name = Debug;
+		};
+		B379BE121DF0897F00489E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZQX656G8T9;
+				INFOPLIST_FILE = LazarbeamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KjellVerschuren.LazarbeamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lazarbeam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B379BDDD1DF0897F00489E62 /* Build configuration list for PBXProject "Lazarbeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B379BE081DF0897F00489E62 /* Debug */,
+				B379BE091DF0897F00489E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B379BE0A1DF0897F00489E62 /* Build configuration list for PBXNativeTarget "Lazarbeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B379BE0B1DF0897F00489E62 /* Debug */,
+				B379BE0C1DF0897F00489E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B379BE0D1DF0897F00489E62 /* Build configuration list for PBXNativeTarget "LazarbeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B379BE0E1DF0897F00489E62 /* Debug */,
+				B379BE0F1DF0897F00489E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B379BE101DF0897F00489E62 /* Build configuration list for PBXNativeTarget "LazarbeamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B379BE111DF0897F00489E62 /* Debug */,
+				B379BE121DF0897F00489E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B379BDDA1DF0897F00489E62 /* Project object */;
+}
